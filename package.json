@@ -1,0 +1,16 @@
+{
+  "name": "gconnect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main_test.js",
+  "scripts": {
+    "test": "mocha",
+    "test:watch":"mocha --watch ./test ./" //this automatically to runs the test on any changes made
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
